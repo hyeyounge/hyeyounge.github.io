@@ -37,6 +37,9 @@ h4 strong{
 
 }
 
+h5 { margin: 0.5em 0 0.5em 0; font-size: 1.1em; font-weight: 400; color: #333;}
+
+
 
 
 /*header*/
@@ -123,7 +126,7 @@ section.word-invite img {
 	display: block; width: 100%; size: 70%}
 
 section.word-invite p { 
-	margin: 0 0 1em 0; font-size: 1.2em; font-weight: 400 ;
+	margin: 0 0 1em 0; font-weight: 400 ;
 	font-family: 'KoPub Batang', serif;
 	text-align: center;}*/
 
