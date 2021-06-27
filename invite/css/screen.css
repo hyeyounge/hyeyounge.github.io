@@ -7,7 +7,6 @@ s */
 body { font-family: 'Open Sans', sans-serif; font-size:16px; font-weight: 300; color: #555; margin: 0; padding: 0;}
 
 /* id= page . lock the page at 1200 px  */
-#container {}
 
 #container .shape {
   padding: 25px 0 0;
