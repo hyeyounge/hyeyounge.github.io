@@ -40,6 +40,12 @@ h4 strong{
 h5 { margin: 0.5em 0 0.5em 0; font-size: 1.1em; font-weight: 400; color: #333;}
 
 
+h6 { margin: 1.0em 0 ; font-size: 1.6em; font-weight: 700; line-height: 1.1em; 
+    text-align: center;
+    font-family: 'KoPub Batang', serif;
+    color: #777;
+    font-size: 25.6px;}
+
 
 
 /*header*/
