@@ -20,7 +20,11 @@ body { font-family: 'Open Sans', sans-serif; font-size:16px; font-weight: 300; c
 /* GLOBAL*/
 /*TEXT*/
 h1 { margin: 0 0 1em 0; font-size: 2.8em; font-weight: 700;}
-h2 { margin: 0 0 0.5em 0; font-size: 1.6em; font-weight: 700; line-height: 1.1em;}
+h2 { margin: 1.0em 0 ; font-size: 1.6em; font-weight: 700; line-height: 1.1em; 
+    text-align: center;
+    font-family: 'KoPub Batang', serif;
+    color: #777;
+    font-size: 25.6px;}
 h3 { margin: 0 0 0.5em 0; font-size: 1em; font-weight: 400;}
 
 h3 strong {
@@ -28,9 +32,11 @@ h3 strong {
     font-weight: 700;
 }
 
-hr.half {
-	max-width:500px;
- }
+h4 strong{
+  "text-align: center; 
+  white-space: pre-wrap;"
+
+}
 
 
 
@@ -51,7 +57,7 @@ section.top-image {
 
 
 /*Section -Main */
-section.main { margin-top: 20px; margin-bottom: 20px; }
+section.main { margin-top: 20px; margin-bottom: 20px; background-color: #FFFFFF;}
 section.main .content {text-align: center;
     font-family: 'KoPub Batang', serif;
     color: #777;
@@ -60,7 +66,19 @@ section.main .content {text-align: center;
 section.main .content p.화환 {font-size: 0.8em; color: #4372e8; padding-top: 20px;}
 
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom: 50px;
+}
 
+.txt-01{
+
+  line-height: 2.0;
+
+}
 
 
 
@@ -98,7 +116,7 @@ section.main .content p.blessing {
 */
 
 /*Section invite*/
-section.word-invite{background-color: #edebe5;}
+section.word-invite{}
 
 section.word-invite .topimg-wrap{padding: 30px 0px;}
 
