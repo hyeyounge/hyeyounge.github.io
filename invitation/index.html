@@ -172,18 +172,13 @@
 				</script>
 				-->
 
-				<div id="kakao-map" div data-aos="fade-up" data-aos-duration="1500">
-					<!-- * 카카오맵 - 지도퍼가기 -->
-					<!-- 1. 지도 노드 -->
-					<div id="daumRoughmapContainer1624898303607" class="root_daum_roughmap root_daum_roughmap_landing"></div>
 
-					<!--
-						2. 설치 스크립트
-						* 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
-					-->
+
+				<!-- 큰 맵 without anything at bottom
+				<div id="kakao-map" div data-aos="fade-up" data-aos-duration="1500">
+					<div id="daumRoughmapContainer1624898303607" class="root_daum_roughmap root_daum_roughmap_landing"></div>
 					<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
 
-					<!-- 3. 실행 스크립트 -->
 					<script charset="UTF-8">
 						new daum.roughmap.Lander({
 							"timestamp" : "1624898303607",
@@ -193,7 +188,29 @@
 						}).render();
 					</script>
 
+				-->
 
+				<!--
+					* 카카오맵 - 약도서비스
+					* 한 페이지 내에 약도를 2개 이상 넣을 경우에는
+					* 약도의 수 만큼 소스를 새로 생성, 삽입해야 합니다.
+				-->
+				<!-- 1. 약도 노드 -->
+				<div id="daumRoughmapContainer1625330939290" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+
+				<!-- 2. 설치 스크립트 -->
+				<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+				<!-- 3. 실행 스크립트 -->
+				<script charset="UTF-8">
+					new daum.roughmap.Lander({
+						"timestamp" : "1625330939290",
+						"key" : "26h3m",
+						"mapWidth" : "360",
+						"mapHeight" : "240"
+					}).render();
+				</script>
+								
 				</div>
 
 				<div  div data-aos="fade-up" data-aos-duration="1500" style="padding-top:10px;padding-left:20px;padding-right:20px;text-align:left">
