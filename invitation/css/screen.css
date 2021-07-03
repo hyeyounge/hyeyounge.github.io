@@ -6,6 +6,8 @@ s */
 @import "//cdn.jsdelivr.net/npm/font-kopub@1.0/kopubbatang.min.css";
 body { font-family: 'Open Sans', sans-serif; font-size:16px; font-weight: 300; color: #555; margin: 0; padding: 0;}
 
+body {
+}
 /* id= page . lock the page at 1200 px  */
 
 #container .shape {
@@ -71,6 +73,9 @@ section.main .content {text-align: center;
     color: #777;
     font-size: 1em;
 }
+
+
+
 section.main .content p.화환 {font-size: 0.8em; color: #4372e8; padding-top: 20px;}
 
 
