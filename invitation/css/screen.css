@@ -65,14 +65,7 @@ h6 { margin: 1.0em 0 ; font-size: 1.6em; font-weight: 700; line-height: 1.1em;
 
 /*header*/
 section.top-image {
-    position: relative;
-    width: 100%;
-    padding: 70% 0;
-    overflow-x: hidden;
-    background-image: url(../images/main.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center 80%;
+
 }
 
 
